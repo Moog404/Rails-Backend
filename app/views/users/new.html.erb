@@ -1,0 +1,32 @@
+
+<form action="/users_controller" method="post">
+
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+
+
+<h1> FORMULAIRE </h1>
+
+<hr>
+
+<div class="p-3 mb-2 bg-secondary text-white">
+
+<div class="form-group">
+    <label class="control-label col-sm-10" for="username">Entrez votre pseudo:</label>
+    <div class="col-sm-8">
+    <input type="text" class="form-control" id="username" name="username">
+  </div>
+</div>
+
+<div class="form-group">
+    <label class="control-label col-sm-10" for="Textarea">Votre Biographie :</label>
+    <div class="col-sm-8">
+    <textarea class="form-control" name="bio" id="Textarea" rows="8"></textarea>
+  	</div>
+</div>
+
+
+<center>
+ <button type="submit" class="btn btn-primary center">Envoyer</button>
+</form>
+</center>
+</div>
