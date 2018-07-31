@@ -2,7 +2,6 @@ class UsersController < ApplicationController
 
 
 def new_user
-  user = User.new
   @user = User.new
   @user.username = params[:username]
   if @user.valid?

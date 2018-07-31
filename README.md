@@ -3,8 +3,7 @@
 
 https://moogbackend.herokuapp.com
 
-## Lancer le programme  
-Télécharger le projet
+
 
 
 Installer les gems
