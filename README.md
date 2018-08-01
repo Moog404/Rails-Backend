@@ -25,4 +25,7 @@ rails server
 
 Puis aller sur ce lien
 
-https://localhost:3000/
+
+```sh
+localhost:3000/
+```
